@@ -29,6 +29,10 @@ tidy:
 vet:
 	go vet ./...
 
+vuln:
+	go install golang.org/x/vuln/cmd/govulncheck@latest
+	$$(go env GOPATH)/bin/govulncheck ./...
+
 fmt:
 	gofmt -l -s -w ./
 	goimports -l -w ./
