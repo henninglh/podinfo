@@ -20,7 +20,7 @@ Specifications:
 * 12-factor app with viper
 * Fault injection (random errors and latency)
 * Swagger docs
-* CUE, Helm and Kustomize installers
+* Helm and Kustomize installers
 * End-to-End testing with Kubernetes Kind and Helm
 * Multi-arch container image with Docker buildx and Github Actions
 * Container image signing with Sigstore cosign
