@@ -35,7 +35,6 @@ vuln:
 
 fmt:
 	gofmt -l -s -w ./
-	goimports -l -w ./
 
 build-charts:
 	helm lint charts/*
